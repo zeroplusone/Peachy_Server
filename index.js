@@ -10,5 +10,5 @@ express()
             res.end(data);
         });
     })
-    .get('/', (req, res) => res.end("Peachy API"))
+    .get('/', (req, res) => res.end("Peachy API! try /listusers/"))
     .listen(PORT, () => console.log(`Listening on ${ PORT }`))
